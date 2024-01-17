@@ -31,8 +31,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-sans-serif: 'Roboto', sans-serif;
+  --font-family-monospace: 'Roboto', sans-serif;
 }
 
 *,
@@ -76,12 +76,14 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-family: 'Alatsi', sans-serif;
 }
 
 p {
   margin-top: 0;
   margin-bottom: 2rem;
   font-size: 1.5rem;
+  font-family: 'Alatsi', sans-serif;
 }
 
 abbr[title],
@@ -547,6 +549,20 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+
+.card-service img {
+  width: 37px;
+  height: 37px;
+  margin-right: 10px; /* Ajuste a margem conforme necessário para criar espaço entre a imagem e o texto */
+}
+
+.card-service .body {
+  flex-grow: 1; /* Permite que o corpo do cartão cresça para ocupar o espaço restante */
+}
+
+
+
 
 @media (min-width: 576px) {
   .container {
