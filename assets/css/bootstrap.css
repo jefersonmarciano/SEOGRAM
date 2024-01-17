@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  --Text: #363940;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -26,6 +27,7 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
+  --black-40: #999;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -560,6 +562,63 @@ pre code {
 .card-service .body {
   flex-grow: 1; /* Permite que o corpo do cartão cresça para ocupar o espaço restante */
 }
+
+
+/* ------------------------ */
+
+.page-section h5{
+  color: #363940;
+  font-family: Alatsi;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+.page-section p{
+  color: var(--black-40, #999);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Alatsi;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+
+.page-section h2.title-section,
+.page-section p {
+  font-family: 'Alatsi', sans-serif;
+}
+
+.page-section .title-section {
+  font-size: 40px; /* Ajuste o tamanho da fonte conforme necessário */
+  font-family: Alatsi;
+  
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px; 
+}
+
+.page-section .subhead {
+  font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+  margin-bottom: 50px;
+  color: var(--black-40);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Alatsi;
+  
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+
+
+
+
+/* --------------------------*/
+
+
 
 
 
