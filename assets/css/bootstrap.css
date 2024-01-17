@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  --rosa: #ED017F;
   --Text: #363940;
   --blue: #007bff;
   --indigo: #6610f2;
@@ -2647,41 +2648,68 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+
+/* Adicione este estilo ao seu arquivo de estilos CSS */
+.custom-btn-whatsapp {
+  background-color: transparent;
+  border: 1px solid var(--Rosa, #ED017F);
+  color: var(--Rosa, #ED017F);
+}
+
+.custom-btn-whatsapp:hover {
+  background-color: var(--Rosa, #ED017F);
+  color: #fff; /* Altere a cor do texto quando hover conforme necessário */
+}
+
+
+/* Adicione este estilo ao seu arquivo de estilos CSS */
+.btn-se-cadastrar {
+  background-color: var(--SuaCorPrimaria, #007bff);
+  color: #fff;
+}
+
+.btn-se-cadastrar:hover {
+  background-color: var(--CorMaisClara, #0056b3); /* Substitua pela cor mais clara desejada */
+}
+
+
+
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: var(--rosa);
+  border-color: var(--rosa);
 }
 
 .btn-primary:hover {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  
+  background-color: transparent;
+  border: 1px solid var(--Rosa, #ED017F);
+  color: var(--Rosa, #ED017F);
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
-  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  background-color: transparent;
+  border: 1px solid var(--Rosa, #ED017F);
+  color: var(--Rosa, #ED017F);
+  box-shadow: 0 0 0 0.2rem rgba(237, 38, 255, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: transparent;
+  border: 1px solid var(--Rosa, #ED017F);
+  color: var(--Rosa, #ED017F);
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #0062cc;
-  border-color: #005cbf;
+  background-color: transparent;
+  border: 1px solid var(--Rosa, #ED017F);
+  color: var(--Rosa, #ED017F);
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(237, 38, 255, 0.5);
 }
 
 .btn-secondary {
@@ -10351,4 +10379,4 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-/*# sourceMappingURL=bootstrap.css.map */
+/*vai ficar responsivo por bem ou por mal*/
