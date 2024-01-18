@@ -89,6 +89,63 @@ p {
   font-family: 'Alatsi', sans-serif;
 }
 
+.page-section .container h4{
+  color: #ED017F;
+}
+
+/* Remove as bordas do acordeão e define a cor */
+.accordion-item {
+  border: none;
+  border-bottom: 1px solid #ED017F; /* Altera a cor da borda inferior */
+  border-top: 1px solid #ED017F;
+}
+
+/* Adiciona um pouco de espaçamento entre os itens */
+.accordion-item + .accordion-item {
+  margin-top: 0;
+}
+
+/* Remove a borda do botão do acordeão */
+.accordion-button {
+  border: none;
+  border-radius: 0;
+}
+
+/* Adiciona uma borda inferior ao cabeçalho do acordeão e define a cor */
+.accordion-header {
+  border-bottom: 1px solid #ED017F; /* Altera a cor da borda inferior do cabeçalho */
+  border-top: 1px solid #ED017F;
+}
+
+/* Remove a borda do corpo do acordeão */
+.accordion-body {
+  border: none;
+}
+
+.accordion .accordion-button{
+  background-color:  #343434; 
+  color: #FFF;
+}
+.accordion .accordion-item{
+  background-color:  #343434; 
+  color: #FFF;
+}
+
+.btn-PIX-css {
+  margin-left: -61px;
+  margin-top: 58px !important;
+  
+}
+
+@media only screen and (max-width: 1000px) {
+  .btn-PIX-css {
+    margin-left: 0px;
+    margin-top: 58px !important;
+    
+  }
+
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -597,6 +654,7 @@ pre code {
   font-style: normal;
   font-weight: 400;
   line-height: 43px; 
+  
 }
 
 .page-section .subhead {
@@ -6890,7 +6948,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #343434 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
