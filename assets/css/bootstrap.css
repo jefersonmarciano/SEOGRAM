@@ -137,6 +137,9 @@ p {
   
 }
 
+
+/*----- mobal */
+
 @media only screen and (max-width: 1000px) {
   .btn-PIX-css {
     margin-left: 0px;
